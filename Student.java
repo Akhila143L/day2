@@ -1,4 +1,4 @@
-package com.infinite.gen;
+package com.infinite.colls;
 
 public class Student {
 	int rollno;
@@ -15,6 +15,10 @@ public class Student {
 		this.name = name;
 		this.city = city;
 		this.cgp = cgp;
+	}
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 	 
 }
